@@ -1,0 +1,75 @@
+@media only screen and (max-width : 768px){
+    .shape {
+        width: 605px;
+    }
+    .rectangle{
+        width: 605px;
+    }
+    .triangle1 {
+        width: 90px;
+    }
+    .triangle2{
+        width: 90px;
+    }
+    .triangle3{
+        width: 90px;
+    }
+    .triangle4{
+        width: 90px;
+    }
+    .col-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    }
+    .input-button input[type="text"]{
+        width: 70%;
+        margin-right: 1rem;
+    }
+    .social-icons::after,
+    .social-icons::before,
+    .credit::after,
+    .credit::before,
+    .contact::after,
+    .contact::before {
+        display: none;
+    }
+    .main-col{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 520px){
+    .shape {
+        width: 305px;
+    }
+    .rectangle{
+        width: 305px;
+    }
+    .triangle1 {
+        width: 90px;
+    }
+    .triangle2{
+        width: 90px;
+    }
+    .triangle3{
+        width: 90px;
+    }
+    .triangle4{
+        width: 90px;
+    }
+    .col-5 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+    .input-button input[type="text"]{
+        width: 50%;
+        margin-right: 1rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+}

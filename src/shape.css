@@ -1,0 +1,115 @@
+.header {
+    width: 100%;
+}
+.banner{
+    background-image: url(./bg.webp);
+    height: 282px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.item-center {
+    background-image: url(./bg.webp);
+    display: grid;
+    place-items: center;
+    height: 282px;
+    justify-content: center;
+}
+.txt-area::after {
+    width: 98%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 3px solid white;
+    margin: 10px;
+}
+.txt-area::before {
+    width: 98%;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 3px solid white;
+    margin: 10px;
+}
+.txt-area h1::after {
+    content: "";
+    width: 96%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    margin: 20px;
+}
+.txt-area h1::before {
+    content: "";
+    width: 96%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    margin: 20px;
+}
+.txt-area {
+    display: grid;
+    place-items: center;
+    height: 145px;
+}
+.txt-area h1 {
+    color: white;
+    text-align: center;
+}
+.shape {
+    background-color: #72c3ab;
+    width: 785px;
+    height: 145px;
+    margin: 0 50px 14px;
+    position: relative;
+}
+.rectangle{
+    background-color: #72c3ab;
+    width: 785px;
+    height: 145px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, .3);
+    z-index: 9999;
+    position: absolute;
+}
+.triangle1 {
+    background-color: #048f60;
+    width: 100px;
+    height: 75px;
+    clip-path: polygon(100% 100%, 100% 0%, 0 0%);
+    position: absolute;
+    top: 30px;
+    left: -90px;
+}
+.triangle2{
+    background-color: #048f60;
+    width: 100px;
+    height: 75px;
+    clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+    position: absolute;
+    top: 80px;
+    left: -90px;
+}
+.triangle3{
+    background-color: #048f60;
+    width: 100px;
+    height: 75px;
+    clip-path: polygon(0% 100%, 100% 0%, 0% 0%);
+    position: absolute;
+    top: 30px;
+    right: -90px;
+}
+.triangle4{
+    background-color: #048f60;
+    width: 100px;
+    height: 75px;
+    clip-path: polygon(100% 100%, 0% 100%, 0% 0%);
+    position: absolute;
+    top: 80px;
+    right: -90px;
+}

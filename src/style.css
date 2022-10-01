@@ -1,0 +1,163 @@
+.main{
+    background-color: brown;
+    width: 100%;
+}
+
+/* post_section  */
+.post_section{
+    background-color: rgb(220, 248, 239);
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.post_container {
+    background-color: white;
+}
+.circle {
+    font-size: 29px;
+    color: #ddd;
+    margin-right: 10px;
+}
+.w-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+.txt-box {
+    padding: 10px;
+}
+.txt-box::after{
+    content: "";
+    width: 80%;
+    height: 1px;
+    background-color: rgb(129, 126, 126);
+    position: absolute;
+    left: 30px;
+}
+.txt-box .three-dots{
+    margin-right: 10px;
+}
+.post_box {
+    border: 1px solid aquamarine;
+    padding: 0 !important;
+    transition: all ease-in-out .5s;
+}
+.post_box:hover {
+    transform: scale(.9, .9);
+}
+.all_posts, .all_posts a{
+    color: black;
+}
+.txt-content {
+    cursor: pointer;
+    transition: all ease-in-out .4s;
+}
+.txt-content h2 {
+    color: rgb(80, 80, 80);
+    font-weight: lighter;
+    font-size: 35px !important;
+}
+.txt-content:hover, .txt-content h2:hover {
+    color: red;
+}
+.heart {
+    font-size: 24px;
+}
+
+/* mailing list  */
+.mailing {
+    width: 100%;
+    padding: 20px;
+    padding-right: 0;
+}
+.mailing h2 {
+    font-weight: lighter;
+}
+.mailing .input-button input {
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+}
+.input-button input[type="text"]{
+    width: 84%;
+    margin-right: 1rem;
+}
+.input-button input[type="text"]:hover {
+    outline: auto;
+}
+.input-button input[type="submit"]{
+    background-color: rgb(255, 104, 104);
+    border: none;
+    color: white;
+    outline: none;
+    transition: all ease-in-out .4s;
+}
+.input-button input[type="submit"]:hover {
+    background-color: rgb(18, 66, 50);
+}
+.footer {
+    width: 100%;
+    padding: 20px 30px;
+    position: relative;
+}
+.social-icons::after {
+    content: "";
+    background-color: rgb(116, 115, 115);
+    width: 3px;
+    height: 40px;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+}
+.social-icons::before {
+    content: "";
+    background-color: rgb(116, 115, 115);
+    width: 2px;
+    height: 40px;
+    position: absolute;
+    left: 160px;
+    top: 20px;
+}
+.social-icons i{
+    font-size: 25px;
+    margin-right: 8px;
+}
+.credit::after {
+    content: "";
+    background-color: rgb(116, 115, 115);
+    width: 3px;
+    height: 40px;
+    position: absolute;
+    left: 480px;
+    top: 20px;
+}
+.credit::before {
+    content: "";
+    background-color: rgb(116, 115, 115);
+    width: 2px;
+    height: 40px;
+    position: absolute;
+    left: 490px;
+    top: 20px
+}
+.contact::after {
+    content: "";
+    background-color: rgb(116, 115, 115);
+    width: 3px;
+    height: 40px;
+    position: absolute;
+    right: 230px;
+    top: 20px;
+}
+.contact::before {
+    content: "";
+    background-color: rgb(116, 115, 115);
+    width: 2px;
+    height: 40px;
+    position: absolute;
+    right: 220px;
+    top: 20px
+}
+.navigation button {
+    padding: 10px 20px;
+    border: 1px solid black;
+   
