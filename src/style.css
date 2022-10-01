@@ -160,4 +160,13 @@
 .navigation button {
     padding: 10px 20px;
     border: 1px solid black;
-   
+    outline: none;
+    background-color: transparent;
+    margin-right: 20px;
+    transition: all ease-in-out .4s;
+}
+.navigation button:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}
